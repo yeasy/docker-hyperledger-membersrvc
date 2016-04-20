@@ -9,7 +9,7 @@ Docker images for [Hyperledger](https://www.hyperledger.org) fabric membersrvc.
 For more information about this image and its history, please see the relevant manifest file in the [`yeasy/docker-hyperledger-membersrvc` GitHub repo](https://github.com/yeasy/docker-hyperledger-membersrvc).
 
 # What is docker-hyperledger-membersrvc?
-Docker image with hyperledger fabric membersrvc deployed. 
+Docker image with hyperledger fabric membersrvc deployed.
 
 # How to use this image?
 The docker image is auto built at [https://registry.hub.docker.com/u/yeasy/hyperledger-membersrvc/](https://registry.hub.docker.com/u/yeasy/hyperledger-membersrvc/).

@@ -6,4 +6,4 @@ FROM yeasy/hyperledger-peer:latest
 MAINTAINER Baohua Yang
 
 WORKDIR membersrvc
-RUN go install && cp membersrvc.yaml $GOPATH/bin
+RUN CGO_CFLAGS=" " CGO_LDFLAGS="-lrocksdb -lstdc++ -lm -lz -lbz2 -lsnappy" go install && cp membersrvc.yaml $GOPATH/bin
