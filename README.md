@@ -23,11 +23,11 @@ FROM yeasy/hyperledger-membersrvc:latest
 More examples, please refer to [hyperledger-compose-files](https://github.com/yeasy/docker-compose-files#hyperledger).
 
 # Which image is based on?
-The image is built based on [hyperledger-peer](https://hub.docker.com/r/yeasy/hyperledger-peer) image.
+The image is built based on [hyperledger](https://hub.docker.com/r/yeasy/hyperledger) base image.
 
 # What has been changed?
 ## change WORKDIR
-Change WORKDIR to membersrvc.
+Change WORKDIR to `$GOPATH/src/github.com/hyperledger/fabric/membersrvc`.
 
 ## install membersrvc
 Install membersrvc to $GOPATH/bin.
