@@ -10,4 +10,4 @@ RUN cd $GOPATH/src/github.com/hyperledger/fabric/membersrvc \
         && cp membersrvc.yaml $GOPATH/bin \
         && go clean
 
-WORKDIR $GOPATH/bin
+CMD ["membersrvc"]
