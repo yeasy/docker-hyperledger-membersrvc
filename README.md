@@ -4,7 +4,8 @@ Docker images for [Hyperledger](https://www.hyperledger.org) fabric membersrvc.
 
 # Supported tags and respective Dockerfile links
 
-* [`0.1, latest` (latest/Dockerfile)](https://github.com/yeasy/docker-hyperledger-membersrvc/blob/master/Dockerfile)
+* [`0.6-dp` (latest/Dockerfile)](https://github.com/yeasy/docker-hyperledger-membersrvc/blob/0.6-dp/Dockerfile)
+* [`latest` (latest/Dockerfile)](https://github.com/yeasy/docker-hyperledger-membersrvc/blob/master/Dockerfile)
 
 For more information about this image and its history, please see the relevant manifest file in the [`yeasy/docker-hyperledger-membersrvc` GitHub repo](https://github.com/yeasy/docker-hyperledger-membersrvc).
 
