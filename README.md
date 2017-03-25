@@ -1,5 +1,7 @@
 Hyperledger-Membersrvc
 ===
+**This is deprecated, pls see [hyperledger-fabric-membersrvc]((https://github.com/yeasy/docker-hyperledger-fabric-membersrvc).**
+
 Docker images for [Hyperledger](https://www.hyperledger.org) fabric membersrvc.
 
 # Supported tags and respective Dockerfile links
